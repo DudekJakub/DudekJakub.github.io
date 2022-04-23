@@ -186,7 +186,7 @@ $(document).ready(function() {
          contentType: "application/json; charset=utf-8",
          dataType: 'json',
          data: JSON.stringify({
-         namee: relatedTask.title,
+         name: relatedTask.title,
             desc: relatedTask.content,
             idList: selectedListId
          }),
